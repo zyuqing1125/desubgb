@@ -1,0 +1,14 @@
+Package: desubgb
+Title: A package for reducing the subgroup selection bias.
+Version: 0.0.1
+Authors@R: 
+    c(person("Jingshen", "Wang", , "jingshenwang@berkeley.edu", role = c("aut")),
+    person("Waverly","Wei", , role = "aut"),
+    person("Yuqing", "Zhou", , role = "aut", "cre"),
+    person("RStudio",role = c("cph")))
+Description:  The desubgb package provides two methods for adjusting the subgroup selection bias: the bootstrap-based method and the confidence-distribution-based method. The bootstrap-based method is established from https://doi.org/10.1080/01621459.2020.1740096} and the confidence-distribution-based method comes from https://doi.org/10.48550/arXiv.2206.11868. You can find the coding details in the two articles.
+Imports: MASS
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
